@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "EmprestimosAPI.Controllers.EmprestimosController",
+    "Method": "GetEmprestimos",
+    "RelativePath": "api/Emprestimos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmprestimosAPI.Controllers.EmprestimosController",
+    "Method": "RegistrarEmprestimo",
+    "RelativePath": "api/Emprestimos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emprestimo",
+        "Type": "EmprestimosAPI.Models.Emprestimo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmprestimosAPI.Controllers.EmprestimosController",
+    "Method": "DeletarEmprestimo",
+    "RelativePath": "api/Emprestimos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
