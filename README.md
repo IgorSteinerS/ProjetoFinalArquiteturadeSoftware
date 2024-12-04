@@ -50,7 +50,7 @@ Endpoints:
 - GET /api/usuarios/{id}: Retorna informações detalhadas do usuário, incluindo se tem empréstimos ativos.
 - DELETE /api/usuarios/{id}: Remove um usuário do sistema.
 
-#EmprestimosAPI:
+# EmprestimosAPI:
 
 Função: Registrar e monitorar empréstimos de livros.
 Endpoints:
